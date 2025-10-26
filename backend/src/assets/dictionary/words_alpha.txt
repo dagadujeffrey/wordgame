@@ -1,0 +1,11 @@
+ally
+arts
+cols
+dare
+dial
+game
+grid
+line
+play
+rows
+word

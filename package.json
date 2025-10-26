@@ -1,0 +1,13 @@
+{
+  "name": "wordgrid-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev:backend": "yarn workspace wordgrid-backend start:dev",
+    "dev:frontend": "yarn workspace wordgrid-frontend dev"
+  }
+}

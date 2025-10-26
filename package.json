@@ -7,7 +7,7 @@
     "frontend"
   ],
   "scripts": {
-    "dev:backend": "yarn workspace wordgrid-backend start:dev",
-    "dev:frontend": "yarn workspace wordgrid-frontend dev"
+    "dev:backend": "yarn --cwd backend start:dev",
+    "dev:frontend": "yarn --cwd frontend dev"
   }
 }
